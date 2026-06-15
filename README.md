@@ -37,31 +37,7 @@
     </ul>
 </div>
 
-<div class="card">
-    <h2>🧠 Arquitetura de IA (Em Cascata)</h2>
-    <p>Para garantir a confiabilidade dos diagnósticos, o sistema utiliza dois modelos <b>YOLO</b> trabalhando em conjunto:</p>
-    <ol class="lista">
-        <li><b>Filtro Validador (best_nao_folha.pt):</b> Analisa se a imagem enviada é realmente uma folha (classes: <code>leaf</code> e <code>non-leaf</code>). Se o objeto for inválido, a análise é interrompida.</li>
-        <li><b>Modelo de Diagnóstico (best.pt):</b> Uma vez validada como folha, este modelo identifica a cultura e a presença de eventuais fitopatologias.</li>
-    </ol>
-</div>
 
-<div class="card">
-    <h2>🛠️ Pré-requisitos e Instalação</h2>
-    <p>Certifique-se de ter o <b>Python 3.8+</b> instalado em sua máquina. Siga os passos abaixo para configurar o ambiente:</p>
-    
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio</code></pre>
-
-    pip install streamlit ultralytics pillow</code></pre>
-</div>
-
-<div class="card">
-    <h2>🚀 Como Executar o Sistema</h2>
-    <p>Com os arquivos dos modelos de pesos (<code>best.pt</code> e <code>best_nao_folha.pt</code>) na raiz do projeto, execute o comando:</p>
-    <pre><code>streamlit run app.py</code></pre>
-    <p>A aplicação será iniciada e abrirá automaticamente no seu navegador padrão (geralmente no endereço <code>http://localhost:8501</code>).</p>
-</div>
 
 <div class="card">
     <h2>💻 Tecnologias Utilizadas</h2>
