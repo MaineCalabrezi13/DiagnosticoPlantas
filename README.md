@@ -1,8 +1,3 @@
-Aqui está o seu arquivo README.md totalmente padronizado, utilizando a estrutura de blocos e estilo HTML que você escolheu. Completei com todas as seções que faltavam (Arquitetura do Sistema, Instalação, Como Executar e Tecnologias) seguindo o mesmo padrão visual elegante.
-
-Você pode copiar o código abaixo para o seu repositório:
-
-HTML
 <h1>🌱 AgroScan AI</h1>
 <p>Diagnóstico Automatizado de Fitopatologias</p>
 
