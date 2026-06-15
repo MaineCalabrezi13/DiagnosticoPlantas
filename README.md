@@ -50,12 +50,10 @@
     <h2>🛠️ Pré-requisitos e Instalação</h2>
     <p>Certifique-se de ter o <b>Python 3.8+</b> instalado em sua máquina. Siga os passos abaixo para configurar o ambiente:</p>
     
-    <p><b>1. Clonar o repositório:</b></p>
-    <pre><code>git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio</code></pre>
 
-    <p><b>2. Instalar as dependências necessárias:</b></p>
-    <pre><code>pip install streamlit ultralytics pillow</code></pre>
+    pip install streamlit ultralytics pillow</code></pre>
 </div>
 
 <div class="card">
@@ -76,4 +74,4 @@ cd nome-do-repositorio</code></pre>
 </div>
 
 <hr>
-<p align="center"><small>AgroScan AI © 2026 – Tecnologia aplicada ao campo.</small></p>
+<p align="center"><small>AgroScan AI © 2026</small></p>
